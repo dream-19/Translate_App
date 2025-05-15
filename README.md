@@ -47,6 +47,13 @@ ollama list
 
 ## Part 1: Simple Translator Using Python
 
+### Clone the repository
+
+```bash
+git clone git@github.com:dream-19/Translate_App.git
+```
+
+### Launch the app
 The `translator_app.py` script provides a basic translation functionality. To launch it, run:
 
 ```bash
@@ -90,9 +97,14 @@ Once launched, the application will be available at: [http://127.0.0.1:7860](htt
 
 ---
 
-## End of the Lab
+## End of the Lab (after all of the exercises)
 
-To stop the Ollama service, execute:
+### Remove the model
+```bash
+ollama rm "qwen3:0.6b"
+```
+
+### Stop Ollama service
 
 ```bash
 pkill -f "ollama serve"
