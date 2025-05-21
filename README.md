@@ -77,10 +77,10 @@ pip install requests
 ```
 
 ### Launch the app
-The `translator_app.py` script provides a basic translation functionality. To launch it, run:
+The `translate_app.py` script provides a basic translation functionality. To launch it, run:
 
 ```bash
-python3 translator_app.py
+python3 translate_app.py
 ```
 
 ---
