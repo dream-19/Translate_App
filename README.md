@@ -53,17 +53,6 @@ ollama list
 git clone git@github.com:dream-19/Translate_App.git
 ```
 
-### Launch the app
-The `translator_app.py` script provides a basic translation functionality. To launch it, run:
-
-```bash
-python3 translator_app.py
-```
-
----
-
-## Part 2: Simple Translator with Interface
-
 ### Create and Activate Virtual Environment
 1. Create a virtual environment:
     ```bash
@@ -78,19 +67,32 @@ python3 translator_app.py
       ```bash
       venv\Scripts\activate
       ```
-
+  
 ### Install Dependencies
 Install the required library for the interface:
 
 ```bash
 pip install gradio
+pip install requests
 ```
 
-### Launch the Application
-Run the `translator_app.py` script:
+### Launch the app
+The `translator_app.py` script provides a basic translation functionality. To launch it, run:
 
 ```bash
 python3 translator_app.py
+```
+
+---
+
+## Part 2: Simple Translator with Interface
+
+
+### Launch the Application
+Run with an interface:
+
+```bash
+python3 translate_app_with_gradio.py
 ```
 
 Once launched, the application will be available at: [http://127.0.0.1:7860](http://127.0.0.1:7860)
