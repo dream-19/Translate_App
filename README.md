@@ -50,7 +50,7 @@ ollama list
 ### Clone the repository
 
 ```bash
-git clone git@github.com:dream-19/Translate_App.git
+git clone https://github.com/dream-19/Translate_App.git
 ```
 
 ### Create and Activate Virtual Environment
